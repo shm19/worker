@@ -1,0 +1,16 @@
+### Compress video
+GET http://localhost:3000/compress?fileName=sample.mp4
+
+### test server
+GET http://localhost:3000/test
+
+
+####### curl command
+
+### Compress video
+curl --request GET \
+  --url 'http://localhost:3000/compress?fileName=sample.mp4' 
+
+### test server
+curl --request GET \
+  --url 'http://localhost:3000/test'
